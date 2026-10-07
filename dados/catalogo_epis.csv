@@ -1,0 +1,81 @@
+﻿id_epi;tipo;modelo;marca;tamanho;ca;preco;saldo_inicial;qtd_minima;revisar
+276;Avental;Avental PVC;;Único;21075;12.0;3;1;
+275;Avental;Avental de Raspa;;Único;42248;38.0;5;1;
+83;Calçado;Bota Armazém;;36;42165;102.0;2;1;
+84;Calçado;Bota Armazém;;37;42165;102.0;3;1;
+85;Calçado;Bota Armazém;;38;42165;102.0;5;1;
+86;Calçado;Bota Armazém;;39;42330;102.0;6;2;
+87;Calçado;Bota Armazém;;40;42165;102.0;12;2;
+88;Calçado;Bota Armazém;;41;42165;102.0;10;1;
+89;Calçado;Bota Armazém;;42;42165;102.0;9;1;
+90;Calçado;Bota Armazém;;43;42330;102.0;4;1;Mais de uma linha com mesmo tipo/modelo/tamanho.
+348;Calçado;Bota Armazém;Bracol;43;42165;110.0;3;1;Mais de uma linha com mesmo tipo/modelo/tamanho.
+350;Calçado;Bota Armazém;Bracol;44;42165;94.66;2;1;
+369;Calçado;Bota Armazém;Fugiwara;45;42165;95.5;2;1;Mais de uma linha com mesmo tipo/modelo/tamanho.
+383;Calçado;Bota Armazém;Fugiwara;45;42330;102.0;2;2;Mais de uma linha com mesmo tipo/modelo/tamanho.
+71;Calçado;Bota Distribuição;;36;42372;156.0;2;1;
+72;Calçado;Bota Distribuição;;37;43938;156.0;7;1;
+74;Calçado;Bota Distribuição;;39;43938;156.0;6;1;
+75;Calçado;Bota Distribuição;;40;43938;156.0;7;1;
+76;Calçado;Bota Distribuição;;41;43938;156.0;9;2;
+77;Calçado;Bota Distribuição;;42;43938;156.0;10;2;
+340;Calçado;Bota Distribuição;Marluvas;43;42374;156.0;2;2;
+79;Calçado;Bota Distribuição;;44;43938;156.0;6;1;
+80;Calçado;Bota Distribuição;;45;43938;156.0;2;1;
+106;Calçado;Bota PVC;;35;37456;67.0;2;1;
+107;Calçado;Bota PVC;;36;37456;67.0;2;1;
+108;Calçado;Bota PVC;;37;37456;67.0;2;1;
+110;Calçado;Bota PVC;;39;37456;67.0;6;1;
+111;Calçado;Bota PVC;;40;37456;67.0;4;2;
+112;Calçado;Bota PVC;;41;37456;67.0;9;2;
+113;Calçado;Bota PVC;;42;37456;67.0;7;4;
+114;Calçado;Bota PVC;;43;37456;67.0;4;1;
+115;Calçado;Bota PVC;;44;37456;67.0;2;1;
+94;Calçado;Bota Vendas;;35;42860;234.0;5;1;
+95;Calçado;Bota Vendas;;36;25684;234.0;4;1;
+96;Calçado;Bota Vendas;;37;25684;234.0;6;1;
+97;Calçado;Bota Vendas;;38;25684;234.0;7;1;
+98;Calçado;Bota Vendas;;39;25684;234.0;7;1;
+99;Calçado;Bota Vendas;;40;25684;234.0;3;2;
+329;Calçado;Bota Vendas;Marluvas;43;42860;234.0;2;1;
+103;Calçado;Bota Vendas;;44;25684;234.0;2;1;
+104;Calçado;Bota Vendas;;45;25684;234.0;4;1;
+132;Capa de Chuva;Capa de Chuva Amarela;;GG;;45.0;98;1;
+259;Capa de Chuva Motociclista;Capa de Chuva Motociclista;;P;;200.0;2;1;
+260;Capa de Chuva Motociclista;Capa de Chuva Motociclista;;M;;200.0;3;1;
+261;Capa de Chuva Motociclista;Capa de Chuva Motociclista;;G;28481;200.0;4;2;
+131;Capacete;Capacete de Segurança;;Único;8304;65.0;3;1;
+252;Capacete Motociclista;Capacete Motociclista;;56;;165.0;1;1;
+253;Capacete Motociclista;Capacete Motociclista;;58;;165.0;7;1;
+254;Capacete Motociclista;Capacete Motociclista;;60;;165.0;2;1;
+255;Capacete Motociclista;Capacete Motociclista;;62;;165.0;1;1;
+127;Cinta Lombar;Cinta Lombar;;P;;68.0;8;1;
+128;Cinta Lombar;Cinta Lombar;;M;;68.0;8;4;
+129;Cinta Lombar;Cinta Lombar;;G;;68.0;8;1;
+130;Cinta Lombar;Cinta Lombar;;GG;;68.0;2;1;
+145;Cinta Lombar;Cinta Lombar;;XG;;68.0;13;1;Nome dizia XG mas a coluna Tamanho dizia GG (repetia o id 130). Confirmar.
+264;Colete Refletivo;Colete Refletivo Laranja;;Único;;20.0;21;1;
+265;Colete Refletivo;Colete Refletivo Verde;;Único;;20.0;13;1;
+393;Luva;Luva Anticorte;Super Safety;G;32039;25.5;-2;10;Saldo negativo: conferir contagem.
+364;Luva;Luva Anticorte;LDI/Medix;GG;48856;15.9;8;2;
+138;Luva;Luva Anticorte Edge;Ansell;GG;35708;25.9;50;2;
+268;Luva;Luva Latex Amarela;;M;13301;5.0;17;1;
+133;Luva;Luva Motoqueiro;;P;;100.0;1;1;
+135;Luva;Luva Motoqueiro;;G;;100.0;7;1;
+136;Luva;Luva Motoqueiro;;GG;;100.0;11;1;
+124;Luva;Luva Vaqueta;;G;25368;18.0;13;3;
+389;Luva;Luva de Trajeto;Medix;G;41392;2.2;12;1;Mais de uma linha com mesmo tipo/modelo/tamanho.
+358;Luva;Luva de Trajeto;Safety;G;42405;2.44;18;2;"Nome dizia ""TAM 9""; planilha dizia G. Confirmar. | Mais de uma linha com mesmo tipo/modelo/tamanho."
+125;Máscara;Máscara Descartável;;Único;38505;2.0;34;1;
+267;Máscara;Máscara Respiratória com Filtro;;Único;4112;151.0;5;1;
+119;Protetor Auricular;Protetor Auditivo;;Único;28089;100.0;2;1;"Nome diz ""Auditivo"", tipo diz ""Auricular"". Padronizar."
+266;Protetor Auricular;Protetor Auricular (Plug);;Único;49710;2.0;15;1;
+258;Protetor Solar;Protetor Solar;;Único;;23.26;7;1;
+256;Viseira;Viseira Capacete Fumê;;Único;;5.0;48;1;
+355;Viseira;Viseira Incolor;San Marino;58/60;;39.9;17;1;
+356;Viseira;Viseira Incolor;San Marino;62;;48.9;2;1;
+121;Óculos;Óculos Sobrepor Incolor;;Único;16462;7.0;45;5;
+141;Óculos;Óculos de Proteção;Danny;Único;14990;3.4;28;10;
+144;Óculos;Óculos de Proteção Escuro;Danny;Único;15298;3.4;14;1;
+308;Óculos;Óculos de Proteção Fumê;Comfort;Único;26127;4.98;19;1;
+123;Óculos;Óculos de Proteção Incolor;;Único;9722;4.0;29;5;

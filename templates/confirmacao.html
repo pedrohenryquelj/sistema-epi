@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Confirmar pedido - CBS</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/estilo.css') }}">
+</head>
+<body>
+<main>
+    <h1>Confira seu pedido</h1>
+
+    <p><strong>Nome:</strong> {{ nome }}<br>
+       <strong>Telefone:</strong> {{ telefone }}</p>
+
+    <h2>EPIs solicitados</h2>
+    <ul class="itens">
+        {% for item in itens %}
+        <li>{{ item.modelo }} ({{ item.tipo }}) - tamanho {{ item.tamanho }}</li>
+        {% endfor %}
+    </ul>
+
+    <h2>Mensagem que será enviada</h2>
+    <p class="mensagem">{{ mensagem }}</p>
+
+    <a class="botao botao-whatsapp" href="{{ link }}">Enviar pelo WhatsApp</a>
+    <a class="link-voltar" href="/">Corrigir pedido</a>
+</main>
+</body>
+</html>

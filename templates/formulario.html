@@ -3,10 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Solicitação de EPI - CBS</title>
+    <title>Solicitação de EPI - {{ empresa }}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/estilo.css') }}">
 </head>
 <body>
-    <h1>Solicitação de EPI</h1>
-    <p>Em breve o formulário estará aqui.</p>
+<main>
+    <h1>Solicitação de EPI - {{ empresa }}</h1>
+
+    <form id="form-pedido" action="/enviar" method="POST" data-catalogo='{{ catalogo | tojson }}'>
+        <label for="nome">Nome completo</label>
+        <input type="text" id="nome" name="nome" autocomplete="name" required>
+
+        <label for="telefone">Telefone com DDD (XX) XXXXX-XXXX</label>
+        <input type="tel" id="telefone" name="telefone" autocomplete="tel" inputmode="tel" required>
+
+        <h2>EPIs que você precisa</h2>
+
+        <label for="tipo">Tipo</label>
+        <select id="tipo"></select>
+
+        <label for="modelo">Modelo</label>
+        <select id="modelo"></select>
+
+        <label for="tamanho">Tamanho ou número</label>
+        <select id="tamanho"></select>
+
+        <button type="button" id="btn-adicionar" class="secundario">Adicionar item</button>
+
+        <ul id="lista-itens" class="itens"></ul>
+        <p id="vazio" class="vazio">Nenhum item na lista ainda.</p>
+        <p id="erro" class="erro" role="alert"></p>
+
+        <input type="hidden" name="itens" id="itens">
+        <button type="submit">Enviar pedido</button>
+    </form>
+</main>
+
+<script src="{{ url_for('static', filename='js/formulario.js') }}"></script>
 </body>
 </html>
