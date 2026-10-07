@@ -101,8 +101,8 @@ sistema-epi/
 
 - [X] Estrutura inicial do repositório
 - [X] **Etapa 1:** Ambiente com Flask e primeira página no ar
-- [ ] **Etapa 2:** Formulário de pedido (lista de EPIs com busca, tamanho, nome e telefone)
-- [ ] **Etapa 3:** Geração da mensagem fixa e do link do WhatsApp
+- [x] **Etapa 2:** Formulário de pedido (lista de EPIs com busca, tamanho, nome e telefone)
+- [x] **Etapa 3:** Geração da mensagem fixa e do link do WhatsApp
 - [ ] **Etapa 4:** Registro dos pedidos no Google Sheets
 - [ ] **Etapa 5:** Controle de estoque e gestão de validade
 - [ ] **Etapa 6:** Publicação online para acesso pelo celular
